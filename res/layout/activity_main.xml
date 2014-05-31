@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+	
+
+    <TextView 
+        android:id="@+id/prenom"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="Prenom :"
+	    android:textStyle="bold"
+	    android:textColor="#FF0000"
+	    android:gravity="center"
+  	/>
+    
+    <EditText
+        android:id="@+id/inputPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	/>
+    
+    <TextView 
+        android:id="@+id/nom"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="Nom : "
+	    android:textStyle="bold"
+	    android:textColor="#FF0000"
+	    android:gravity="center"
+  	/>
+    
+    <EditText
+        android:id="@+id/inputNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+ 	
+    <Button
+        android:id="@+id/recherche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rechercher">
+    </Button>
+    
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/resultat"
+		android:textSize="12sp"
+		android:textColor="#112233"
+	/>
+    
+    <Button 
+		android:id="@+id/Button1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="Wikitude" 
+	/>
+    
+    
+  </LinearLayout>
